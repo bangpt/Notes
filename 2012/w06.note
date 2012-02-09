@@ -1,12 +1,32 @@
 w06
-
 ===============================================
 Thu 09/02/2012
 ===============================================
-11:00 - 11:30: Working on setting up note
+11:00 - 11:30 DONE Working on setting up note
 What I’v done:
    — Setting up github repository
    — Setting the Notes section on vimrc
    — Adding the mapping to insert date & time for the note file
    — Trying a note flow of creating → saving, editing → saving and pushing
    up to the server and it is working OK
+13:00 - 13:30 DONE Setting up Evernote so that I can take note and update at the end of the week
+13:30 - 13:45 DONE English
+   • Accommodate: A restaurant can’t accommodate her special need
+   • Lighten up: Take it easy
+   • Lift a finger to help someone: My ex-husband hasn’t lifted a finger to help me
+   • Benevolent[bu’nevu-lunt]: showing kindness
+   • Include someone’s name on invitation
+   • Confine in someone: Reveal st to so (very few someone)
+13:50 - 14:30 DONE Weekly report
+14:30 - 14:45 DONE English pronunction [ey&e]
+• It is similar to [ee] & [i]
+• [ey] hard, long [i] soft, short
+• [ey] sounds like [ê] while [e] sounds like e
+14:45 - 14:55 DONE Pushups and gongs practice
+14:55 - 15:30 INPROGRESS Implement failed case checking for automation
+TODO
+• Set VIM to work with Git TODO Tomorrow
+• Change/add syntaxes in Notes: date and time stamp support, INPROGRESS, day separation TODO Tomorrow
+• English listening 
+• Try the recursion for pytimer
+• Try to recreate the Cocoa timer project
