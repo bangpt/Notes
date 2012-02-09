@@ -23,10 +23,66 @@ What I’v done:
 • [ey] hard, long [i] soft, short
 • [ey] sounds like [ê] while [e] sounds like e
 14:45 - 14:55 DONE Pushups and gongs practice
-14:55 - 15:30 INPROGRESS Implement failed case checking for automation
+14:55 - 15:30 DONE Implement failed case checking for automation
+NOTE
+{
+   Way for finding in Perl array
+   • The standard way is using grep
+   • Counting
+
+   Many of the uses of hashes are to "answer questions about lists." When you have an array or list of values and you need to ask about its properties, you will often find yourself using a hash. Start simply by counting the number of particular elements in a list. Here's the naïve approach:
+
+       my $count = 0;
+       for (@list) {
+           $count++ if $_ eq "apple";
+       }
+
+   You can smarten this up with the use of the grep function:
+
+       $count = grep $_ eq "apple", @list;
+
+
+}
+NOTE 
+{
+   Perl Hash
+   • To check if the element exists exists($ahash{$aid})
+   • To check if the value is available for that id
+   defined $h{'foo'} ? print 1 : print 0;
+   • Another way for the above case is 
+
+   if ( $h{'foo'} ) {
+        print 'true';
+    }
+    else {
+        print 'false';
+    }
+
+}
+15:30 - 15:45 DONE Table tennis practice
+• Need to work on forehand
+15:45 - 16:45 DONE Testing the failed case checking
+• DONE Run a sample in normal way to see if everything is working
+• DONE Set up the result with failed case - FAIL on MAX Serial, MISSING on MAX USB
+17:00 - 17:30 INPROGRESS Setup private repositories for planner (in Python, Objective C) in Bitbucket
+• Setting up through https seems to be the simplest method
+Here are the steps
+   1. Setup some basic global info
+   $ git config --global user.name "Pham Thanh Bang"
+   $ git config --global user.email "bangpt@youremail.com"
+   2. Set proxy info for the enviroment
+   Something like below is enough
+   http_proxy=http://yourname:yourpass@proxy_address:proxy_port
+   3. Add the repository user name, password to your project config file
+   $ git remote add origin https://youraccountname:youraccountpass@github.com/youraccount/Notes.git
+   or @bitbucket.org/bangpt/bpplanner.git
+
 TODO
 • Set VIM to work with Git TODO Tomorrow
-• Change/add syntaxes in Notes: date and time stamp support, INPROGRESS, day separation TODO Tomorrow
+• Change/add syntaxes in Notes: date and time stamp support, INPROGRESS, day separation, DEFER, LATER or TOMORROW TODO Tomorrow
 • English listening 
 • Try the recursion for pytimer
 • Try to recreate the Cocoa timer project
+• Test the failed case checking TODO Tomorrow
+   • Fix things if something wrong: Yes, it reruns everything
+   • Rerun to see if run on the failed case
