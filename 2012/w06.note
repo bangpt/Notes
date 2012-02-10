@@ -1,5 +1,37 @@
 w06
 ===============================================
+Fri 10/02/2012
+===============================================
+TODO
+• DONE Continues setup private repositories
+• Fix the issues with “include-faileds”
+• Gongs practices (1 times)
+• Pushups (14 times)
+• English 
+   — DONE Vocabulary, reading
+   — Pronunciation
+   — DONE Listening
+• Make vim to work with git
+• Change or add a syntax for Notes
+
+What I’ve done:
+
+09:00 - 09:40 Planning for today
+09:40 - 09:50 Gongs practices 
+09:50 - 10:10 English
+   • Sweltering: Uncomfortable hot
+   • Air-conditioning: System to keep air cool and dry
+   • Move out: I’m going to move out anyway; you should’ve moved long, long ago
+   • How do you stand the heat
+   • Electric fan here
+10:10 - 14:30 Web surfing
+14:30 - 15:30 Setup private repositories
+   — Have to manually add password for the config file, how to change it from commandline?
+   — Not sure why have to use the command “git push -u origin master” to upload the code to the server
+   — Found out why: Should follow steps in the website: make dir, git init, add remote server repos info, add st, commit and push -u origin master
+15:30 - 16:30 Making Vim working with git and up the vimrc file to sky driver
+
+===============================================
 Thu 09/02/2012
 ===============================================
 11:00 - 11:30 DONE Working on setting up note
@@ -80,7 +112,7 @@ Here are the steps
 TODO
 • Set VIM to work with Git TODO Tomorrow
 • Change/add syntaxes in Notes: date and time stamp support, INPROGRESS, day separation, DEFER, LATER or TOMORROW TODO Tomorrow
-• English listening 
+• DONE English listening 
 • Try the recursion for pytimer
 • Try to recreate the Cocoa timer project
 • Test the failed case checking TODO Tomorrow
