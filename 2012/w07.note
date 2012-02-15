@@ -1,0 +1,67 @@
+w07
+==========================================
+Wed 15/02/2012
+==========================================
+TODO
+• DONE Report
+• DONE Refactoring the generator
+• Gongs practice (2 times)
+• DONE Pushups (15)
+• Meeting
+• DONE Pingpong practice
+• DONE English reading and conversation
+• DONE English pronunciation
+
+What I am doing now
+
+10:00 - 11:15: DONE Refactoring the generator
+   — We can create a annoynimous sub as
+   $sub_ref = sub {print “Hello”};
+   then with these scalar we can move to every where and execute there as &{$sub_ref}()
+11:15 - 11:30: DONE English reading and conversation
+   — what have you got going on?
+   — I guess I won't have a break until two o'clock
+   — cut it close = to not leave enough margin, often occurs in the context of working against a deadline
+   I thought it had its origins in tailoring as well, or carpentry, where if you cut too close to the line you've drawn you leave no margin for error--as in measure twice, cut once. Cut too close to the line and your work is wasted.
+14:00 - 15:10 DONE Report
+15:15 - 15:30 DONE English pronunciation
+
+SOMEDAY
+• I want more key word like @project, INPROGRESS, Title, Timestamp, DEFER, NOTE, DELETE, SOMEDAY
+• To add day separation
+
+==========================================
+Tue 14/02/2012
+==========================================
+TODO 
+• DONE Read the iOS programming book to understand how Apple doc organise
+• Read the HOP
+• DONE English pronunciation, conversation, reading
+• DONE Gongs practice (2 times) 
+• DONE Pushups 
+• DONE Implement Option organiser
+• DONE Try to create a xcode project
+
+What’ I now doing
+09:45 - 10:30 Implement Option organiser
+NOTE 
+   • Here is how to call a method name from string
+      &{”method_name”}($variable);
+   • Be sure to remove use strict directive in file
+
+11:00 - 11:30 Reading iOS programming
+13:15 - 14:00 English
+• I told him without batting an eye
+• not giving in to peer pressure
+14:30 - 15:00 Implement Option organiser
+==========================================
+Mon 13/02/2012
+==========================================
+What are you doing now
+TODO
+   • DONE Fix the issue with include-faileds
+   • Refactoring the generator to reduce matainance
+
+15:10: Thinking of way to simplify the naming 
+      • By using a hash and a sub so for example “core value” can be gotten by name. We will provide the full name so it can be accessed by family or name
+      • How to get it 
