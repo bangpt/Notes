@@ -1,0 +1,56 @@
+w08
+
+======================================
+Mon 20/02/2012
+======================================
+Plan for this week
+• Complete the automation for SC, PA
+• Add test cases selection support
+• Get the bpplanner running
+• Read the book: Fastlane
+
+
+TODO
+• DONE Change password 
+• DONE Learn how to use vim reg to replace things
+
+
+DOING
+10:20 - 11:15 DONE Change password
+   — Change Fsoft password
+   — Change Peoplesoft password
+   — Change Freescale password
+11:15 - 15:40 DONE Use vim reg to replace things 
+NOTE {
+Type :help :g to get help:
+
+:[range]g[lobal]/{pattern}/[cmd]
+            Execute the Ex command [cmd] (default ":p") on the
+            lines within [range] where {pattern} matches.
+—
+}
+:%s,\(\.execute.*\)\.each(:as => :hash),\1.each(:as => :hash),g
+Other separator like , as in here can be used in search
+:%s/\(\.execute.*\)\.each(:as => :hash)/\1.each(:as => :hash)/g
+
+Here is another sample
+%s/sub \(.*\)_template/\$template_dict\{”\1”} = sub/gc
+
+— You define a group by \(\)
+— Inside can be specific like execute.* or any charator like .*
+— The group boundary is defined by charaters before or after it for example here (sub ) and (_template)
+— You later can refer to them as \1 or \2
+%s/template;\n\}/template;\n\};gc)})
+— Find and replace line feed charater 
+%/template;\n\}/template;\r\};
+It will find and replace 
+   template;
+}
+with 
+   template;
+};
+— Found something interesting here
+:%s/$/\rthis is a new line
+but not sure how to use
+
+
