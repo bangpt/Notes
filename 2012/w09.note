@@ -24,12 +24,13 @@ i.e ac[abc] then we’re looking for one character after ac that value could be 
 • [] can stand anywhere
 • It and the character before and/or after it makes the requirement complete, where and what
 • [abc] is the same as [a|b|c]
+• In the box space is denoted by a space [ ]
 2. Quantifier
 • In term of quantifier the [box] is 1
-• 0 or 1: ?, banks? the char and ? is a requirement. It means there should be 0 or 1 (s)
+• 0 or 1: ?(Optional), banks? the char and ? is a requirement. It means there should be 0 or 1 (s)
 • Like box it can stand anywhere
 • Its position is for where, it and the char right in front of it is for what
-• Similar qualifier: ? - 0 or 1, *: 0 or more, +: 1 or more, {n}: Exact (including the char in front of it)
+• Similar qualifier: ? - 0 or 1, *: 0 or more whatever, +: (must) 1 or more, {n}: Exact (including the char in front of it)
 , {n,m} - Range inside a exact quantifier
 3. Negation [^] - Inside a box
 • Means not that character specified in here, anything but
@@ -49,6 +50,10 @@ i.e ac[abc] then we’re looking for one character after ac that value could be 
 9. Boundary
 • ^ for the beginning
 • $ for the end
+• \b for word boundary
+10. Greediness - and non-greedyness ? (Yes it look like a optional qualifier but afer a repeation it just mean a non-greedy)
+• When matching for repetion by default regex will try for as many text as possible
+so put ? behind the repetion pattern to make it match the smallest possible. It can be after any repetion symbols
 
 
 
