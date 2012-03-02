@@ -9,6 +9,61 @@ TODO
 • Get ghost and top spin serve right
 • Finish the book Millionaire Fastlane
 ========================================
+Fri 02/03/2012
+========================================
+TODO
+• Update the task list
+• Complete the configurator data for PA
+
+NOTE
+Some takeaways from Regex
+1. The box []
+• []: To denote the value for one character
+i.e ac[abc] then we’re looking for one character after ac that value could be a or b or c
+• Inside [] - is a range denote, it is a kind of short cut
+• [] can stand anywhere
+• It and the character before and/or after it makes the requirement complete, where and what
+• [abc] is the same as [a|b|c]
+2. Quantifier
+• In term of quantifier the [box] is 1
+• 0 or 1: ?, banks? the char and ? is a requirement. It means there should be 0 or 1 (s)
+• Like box it can stand anywhere
+• Its position is for where, it and the char right in front of it is for what
+• Similar qualifier: ? - 0 or 1, *: 0 or more, +: 1 or more, {n}: Exact (including the char in front of it)
+, {n,m} - Range inside a exact quantifier
+3. Negation [^] - Inside a box
+• Means not that character specified in here, anything but
+4. Combination of box [] and quantifier {}
+• They can be combined and it totally makes sense
+5. Alias or shorthand
+\d: digit
+\w: character, digit and underscore
+\s: Space, newline, tab
+\D: Not digit
+\W: Not word
+\S: Not space, newline or tab
+6. DONT USE
+.*: Match everything except newline as [^\n] .But the problem is newline character is different from flatform to flatform
+7. Use escape char to find special character
+8. Grouping. Use () for grouping, inside it we can use ‘or’ (|)
+9. Boundary
+• ^ for the beginning
+• $ for the end
+
+
+
+
+
+========================================
+Thu 01/03/2013
+========================================
+DONE
+• Weekly and monthly report
+IDEA
+• I found a great idea of building a map of property & device in Excel and the script can look up there and generate the neccessary code
+• It is simple but powerful and it is easy to maintain, check and can be versioning
+
+========================================
 Wed 29/02/2012
 ========================================
 TODO
